@@ -42,6 +42,7 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 set splitbelow
 "------------------------NERDTree
 au vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "------------------------Shout cut
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
