@@ -25,6 +25,10 @@
     `  cd ~/.vim/bundle/YouCompleteMe`
     `  python3 install.py --all`
 
+5. Install exuberant-ctags
+
+    `  sudo apt-get install -y exuberant-ctags`
+    
 
 ## .zshrc setting
 
